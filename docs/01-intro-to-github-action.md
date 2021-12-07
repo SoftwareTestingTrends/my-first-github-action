@@ -70,7 +70,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 ```
-4. Push content to Github repository.
+4. Push content to Github repository. Your new GitHub Actions workflow file is now installed in your repository and will run automatically each time someone pushes a change to the repository. 
 
 # Reference: 
 https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
